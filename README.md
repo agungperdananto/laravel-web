@@ -4,6 +4,21 @@ An app for listing Laravel gigs/jobs. This project is from my YouTube "[Laravel 
 
 ![Alt text](/public/images/screen.png "LaraGigs")
 
+## Install and configure composer
+install laravel 
+    composer global require laravel/installer
+
+install php
+    https://www.php.net/manual/en/install.php
+
+install depedencies
+    composer install
+
+setup .env file
+
+generate application key
+    php artisan key:generate
+
 ## Usage
 
 ### Database Setup
