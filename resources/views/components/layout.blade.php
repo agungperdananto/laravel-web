@@ -31,7 +31,7 @@
     <ul class="flex space-x-6 mr-6 text-lg">
       @auth
       <li>
-        <span class="font-bold uppercase">
+        <span class="font-bold uppercase" id="welcome">
           Welcome {{auth()->user()->name}}
         </span>
       </li>
@@ -41,7 +41,7 @@
       <li>
         <form class="inline" method="POST" action="/logout">
           @csrf
-          <button type="submit">
+          <button type="submit" id="logout">
             <i class="fa-solid fa-door-closed"></i> Logout
           </button>
         </form>
